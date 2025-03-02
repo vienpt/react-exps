@@ -111,7 +111,8 @@ export default function AppTable({
 - Dynamic height calculations based on window dimensions
 - Clear separation of container from content
 
-![Layout Management](https://placeholder-for-layout-screenshot.com)
+**main page**
+![main table](main-page.png)
 
 ### 2. Mapbox Integration
 
@@ -123,7 +124,9 @@ Integration with Mapbox to synchronize table data with map visualizations:
 - Managing interaction states across components
 - Optimizing performance with large datasets in map view
 
-![Map Integration](https://placeholder-for-map-screenshot.com)
+**map**
+![map](table-map.png)
+![map expand](table-map-expand.png)
 
 ### 3. Global State & Interaction Management
 
@@ -151,8 +154,6 @@ const {
 - Conditional rendering based on global state
 - Lazy-loaded components for performance optimization
 - Memoization to prevent unnecessary re-renders
-
-![State Management](https://placeholder-for-state-screenshot.com)
 
 ### 4. Data Fetching Strategy
 
@@ -198,8 +199,6 @@ const data = useMemo(() => {
 - Smart caching and invalidation strategies
 - Conditional data source selection based on application state
 - Optimized for both server-side and client-side filtering/searching
-
-![Data Fetching](https://placeholder-for-data-fetching-screenshot.com)
 
 ### 5. Advanced Table Implementation
 
@@ -258,9 +257,6 @@ The DataTable component leverages TanStack Table for complex data visualization:
 - Inline editing capabilities
 - Row reordering
 
-**main page**
-![main table](main-page.png)
-
 **column edit**
 ![column edit](table-column-edit.png)
 
@@ -268,9 +264,7 @@ The DataTable component leverages TanStack Table for complex data visualization:
 ![filter](table-filter.png)
 ![filter-preset](table-filter-preset.png)
 
-**map**
-![map](table-map.png)
-![map expand](table-map-expand.png)
+
 
 ## Architecture Assessment
 
